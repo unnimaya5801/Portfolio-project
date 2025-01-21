@@ -1,0 +1,35 @@
+.about-page {
+    background-color: #f9f9f9;
+  }
+  
+  .about-page h1,
+  .about-page h2 {
+    color: #333;
+  }
+  
+  .about-page .rounded-circle {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .about-page .skills i,
+  .about-page .achievements i {
+    color: #007bff;
+  }
+  
+  .achievements .list-group-item {
+    font-size: 1.1rem;
+  }
+
+  .education .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education h5 {
+    color: #007bff;
+  }
+  
+  
