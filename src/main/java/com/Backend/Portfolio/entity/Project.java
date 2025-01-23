@@ -1,16 +1,20 @@
-package com.example.entity;
+package com.Backend.Portfolio.entity;
 
 import jakarta.persistence.*;
 
 @Entity
 public class Project {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String title;
     private String description;
-    private String link;
+
+    // No-argument constructor for JPA
+    public Project() {
+    }
 
     // Getters and Setters
     public Long getId() {
@@ -37,11 +41,4 @@ public class Project {
         this.description = description;
     }
 
-    public String getLink() {
-        return link;
-    }
-
-    public void setLink(String link) {
-        this.link = link;
-    }
 }

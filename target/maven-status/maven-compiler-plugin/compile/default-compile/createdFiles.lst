@@ -1,5 +1,5 @@
-com/example/entity/Project.class
-com/example/controller/ProjectController.class
+com/Backend/Portfolio/service/ProjectService.class
+com/Backend/Portfolio/entity/Project.class
 com/Backend/Portfolio/PortfolioApplication.class
-com/example/service/ProjectService.class
-com/example/repository/ProjectRepository.class
+com/Backend/Portfolio/repository/ProjectRepository.class
+com/Backend/Portfolio/controller/ProjectController.class
